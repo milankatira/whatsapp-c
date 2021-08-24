@@ -1,0 +1,65 @@
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    flex:0.35;
+}
+.sidebar_header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+border-right:1px solid lightgray;
+
+}
+
+.sidebar_headerright{
+display:flex;
+align-items:center;
+justify-content:space-between;
+min-width:10vh;
+}
+
+.sidebar_headerright > 
+    .MuiSvgIcon-root{
+    margin-right:2vw;
+
+}
+
+.sidebar_search{
+    display:flex;
+    align-items:center;
+    background-color:white;
+    border-radius:10px;
+    height:20px;
+    padding:20px;
+}
+.sidebar_search_container{
+    display:flex;
+    align-items:center;
+    background-color:white;
+    height:35px;
+    width:100%;
+    border-radius:10px;
+}
+
+.sidebar_search_container > .MuiSvgIcon-root {
+color:gray;
+padding:10px;
+}
+
+.sidebar_search_container > input{
+    border:none;
+    margin-left:10px;
+    outline-width:0;
+    border-color:white;
+}
+
+.sidebar__chat{
+    flex:1;
+    background-color:white;
+    overflow:scroll;
+}
+
+.chatbox__body{
+    flex:1;
+    background-image:url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png")
+}
